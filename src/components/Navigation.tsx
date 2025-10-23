@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
+import logoImage from '/assets/logo.png';
 
 const Navigation: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,7 +40,7 @@ const Navigation: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/assets/logo.png" 
+              src={logoImage} 
               alt="Humble Plumbing and Gasfitting" 
               className="h-16 w-auto lg:h-20"
             />

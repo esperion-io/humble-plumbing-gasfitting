@@ -1,33 +1,43 @@
 import React from 'react';
 import BeforeAfterSlider from './BeforeAfterSlider';
 
+// Import images
+import before1 from '/assets/Previous-projects/Before 1.jpg';
+import after1 from '/assets/Previous-projects/After 1.jpg';
+import before2 from '/assets/Previous-projects/Before 2.jpg';
+import after2 from '/assets/Previous-projects/After 2.jpg';
+import before3 from '/assets/Previous-projects/Before 3.jpg';
+import after3 from '/assets/Previous-projects/After 3.jpg';
+import before4 from '/assets/Previous-projects/Before 4.jpg';
+import after4 from '/assets/Previous-projects/After 4.jpg';
+
 const Portfolio: React.FC = () => {
   const projects = [
     {
       id: 1,
-      beforeImage: "/assets/Previous-projects/Before 1.jpg",
-      afterImage: "/assets/Previous-projects/After 1.jpg",
+      beforeImage: before1,
+      afterImage: after1,
       beforeAlt: "Bathroom renovation - Before showing original plumbing condition",
       afterAlt: "Bathroom renovation - After showing completed professional plumbing work"
     },
     {
       id: 2,
-      beforeImage: "/assets/Previous-projects/Before 2.jpg",
-      afterImage: "/assets/Previous-projects/After 2.jpg",
+      beforeImage: before2,
+      afterImage: after2,
       beforeAlt: "Kitchen gas line installation - Before showing original setup",
       afterAlt: "Kitchen gas line installation - After showing professional installation"
     },
     {
       id: 3,
-      beforeImage: "/assets/Previous-projects/Before 3.jpg",
-      afterImage: "/assets/Previous-projects/After 3.jpg",
+      beforeImage: before3,
+      afterImage: after3,
       beforeAlt: "Commercial plumbing system - Before showing original condition",
       afterAlt: "Commercial plumbing system - After showing upgraded system"
     },
     {
       id: 4,
-      beforeImage: "/assets/Previous-projects/Before 4.jpg",
-      afterImage: "/assets/Previous-projects/After 4.jpg",
+      beforeImage: before4,
+      afterImage: after4,
       beforeAlt: "Residential pipe replacement - Before showing old pipes",
       afterAlt: "Residential pipe replacement - After showing new installation"
     }
