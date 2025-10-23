@@ -8,6 +8,8 @@ export default defineConfig({
   base: '/humble-plumbing-gasfitting/',
   build: {
     sourcemap: 'hidden',
+    outDir: 'dist',
+    assetsDir: 'assets',
   },
   plugins: [
     react({
