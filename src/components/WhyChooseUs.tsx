@@ -182,11 +182,11 @@ const WhyChooseUs: React.FC = () => {
                 Get Your Free Quote
               </button>
               <a 
-                href="tel:+64211234567" 
+                href="tel:+64210420062" 
                 className="border-2 border-white text-white hover:bg-white hover:text-primary-600 font-semibold py-4 px-8 rounded-lg transition-all duration-300 inline-flex items-center justify-center space-x-2"
               >
                 <Phone className="h-4 w-4" />
-                <span>Call Now: 021 123 4567</span>
+                <span>Call Now: 021 042 0062</span>
               </a>
             </div>
           </div>

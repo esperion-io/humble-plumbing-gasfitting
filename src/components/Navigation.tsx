@@ -70,11 +70,11 @@ const Navigation: React.FC = () => {
           {/* Phone Number & CTA */}
           <div className="hidden md:flex items-center space-x-4">
             <a 
-              href="tel:+64211234567" 
+              href="tel:+64210420062" 
               className="flex items-center space-x-2 text-primary-600 hover:text-primary-700 font-semibold"
             >
               <Phone className="h-4 w-4" />
-              <span>021 123 4567</span>
+              <span>021 042 0062</span>
             </a>
             <button 
               onClick={() => scrollToSection('#quote-form')}
@@ -87,11 +87,11 @@ const Navigation: React.FC = () => {
           {/* Mobile menu button */}
           <div className="lg:hidden flex items-center space-x-2">
             <a 
-              href="tel:+64211234567" 
+              href="tel:+64210420062" 
               className="flex items-center space-x-1 text-primary-600 text-sm font-semibold"
             >
               <Phone className="h-4 w-4" />
-              <span className="hidden sm:inline">021 123 4567</span>
+              <span className="hidden sm:inline">021 042 0062</span>
             </a>
             <button
               onClick={() => setIsOpen(!isOpen)}

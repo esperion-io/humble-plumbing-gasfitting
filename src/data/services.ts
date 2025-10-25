@@ -6,7 +6,6 @@ import {
   Wrench, 
   Search, 
   Thermometer,
-  Shield,
   Filter
 } from 'lucide-react';
 
@@ -137,19 +136,7 @@ export const services: Service[] = [
       "Water quality testing"
     ]
   },
-  {
-    id: 10,
-    title: "Backflow Prevention",
-    description: "Installation and testing of backflow prevention systems to protect your water supply.",
-    icon: Shield,
-    category: "commercial",
-    features: [
-      "Backflow device installation",
-      "Annual testing and certification",
-      "Compliance with regulations",
-      "System maintenance and repairs"
-    ]
-  }
+
 ];
 
 export const getServicesByCategory = (category: string) => {

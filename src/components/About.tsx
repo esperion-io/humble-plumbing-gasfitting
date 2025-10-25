@@ -3,8 +3,7 @@ import { Users, Award, Shield, Clock, CheckCircle, Wrench } from 'lucide-react';
 
 const About: React.FC = () => {
   const stats = [
-    { number: "10", label: "Years Experience", icon: Clock },
-    { number: "500+", label: "Projects Completed", icon: Wrench },
+    { number: "10+", label: "Years Experience", icon: Clock },
     { number: "100%", label: "Licensed & Insured", icon: Shield },
     { number: "5★", label: "Customer Rating", icon: Award }
   ];
@@ -25,8 +24,8 @@ const About: React.FC = () => {
       icon: Award
     },
     {
-      title: "Honest Pricing",
-      description: "Transparent, upfront pricing with no hidden costs or surprise charges.",
+      title: "Integrity",
+      description: "We conduct business with honesty, transparency, and ethical practices you can trust.",
       icon: Shield
     },
     {
@@ -45,7 +44,7 @@ const About: React.FC = () => {
             About <span className="text-primary-600">Humble Plumbing</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Your trusted local plumbing and gas fitting experts, serving Auckland with integrity and excellence since 2009.
+            Your trusted local plumbing and gas fitting experts, serving Auckland with integrity and excellence since 2023.
           </p>
         </div>
 
@@ -56,19 +55,13 @@ const About: React.FC = () => {
             <h3 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h3>
             <div className="space-y-4 text-gray-600">
               <p>
-                Founded in 2009, Humble Plumbing & Gasfitting has grown from a small local business 
-                to Auckland's most trusted plumbing service provider. Our journey began with a simple 
-                mission: to provide honest, reliable, and professional plumbing services to our community.
+                Humble Plumbing & Gasfitting Ltd is a certified plumbing, gas, and drainage company proudly based in Auckland, New Zealand. Established in 2023, we deliver reliable, high-quality services for new builds, renovations, maintenance, and both residential and commercial projects.
               </p>
               <p>
-                Over the years, we've built our reputation on quality workmanship, fair pricing, and 
-                exceptional customer service. Every job, whether it's a simple tap repair or a complete 
-                plumbing installation, receives the same level of attention and care.
+                As a 100% NZ-owned and operated business, we're recognised for our friendly service, expert craftsmanship, and honest approach. Every project is handled safely, efficiently, and to the highest professional standard.
               </p>
               <p>
-                Today, we're proud to serve residential and commercial customers across Auckland, 
-                backed by full licensing, insurance, and a team of experienced professionals who 
-                share our commitment to excellence.
+                At Humble Plumbing & Gasfitting, our mission is simple — to provide trusted, professional plumbing and gasfitting solutions built on quality, integrity, and pride. We stand by our name in everything we do: humble service, quality work, and pride in every job.
               </p>
             </div>
 
@@ -111,7 +104,7 @@ const About: React.FC = () => {
 
         {/* Stats Section */}
         <div className="bg-primary-600 text-white rounded-2xl p-8 mb-16">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {stats.map((stat, index) => {
               const IconComponent = stat.icon;
               return (
@@ -178,7 +171,7 @@ const About: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="tel:+64211234567" 
+                href="tel:+64210420062" 
                 className="btn-primary"
               >
                 Call Us Today

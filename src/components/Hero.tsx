@@ -73,11 +73,11 @@ const Hero: React.FC = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <a 
-                href="tel:+64211234567" 
+                href="tel:+64210420062" 
                 className="flex items-center justify-center space-x-3 bg-accent-500 hover:bg-accent-600 text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
                 <Phone className="h-5 w-5" />
-                <span>Call Now: 021 123 4567</span>
+                <span>Call Now: 021 042 0062</span>
               </a>
               <button 
                 onClick={() => document.getElementById('quote-form')?.scrollIntoView({ behavior: 'smooth' })}
@@ -135,7 +135,7 @@ const Hero: React.FC = () => {
                     value={formData.phone}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200"
-                    placeholder="021 123 4567"
+                    placeholder="021 042 0062"
                   />
                 </div>
               </div>
@@ -152,7 +152,7 @@ const Hero: React.FC = () => {
                   value={formData.email}
                   onChange={handleInputChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200"
-                  placeholder="your.email@example.com"
+                  placeholder="info.humbleplumbingltd@gmail.com"
                 />
               </div>
 
