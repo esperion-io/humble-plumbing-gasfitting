@@ -17,11 +17,9 @@ const Hero: React.FC = () => {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Basin form submission will be handled by the form action
-    console.log('Form submitted:', formData);
-  };
+  const handleSubmit = () => {
+  console.log('Submitting form to UseBasin...');
+};
 
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-16 lg:pt-20">
