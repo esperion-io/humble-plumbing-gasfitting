@@ -102,11 +102,12 @@ const Hero: React.FC = () => {
             </div>
 
             <form 
-              action="https://usebasin.com/f/14760ae46558"
-              method="POST"
-              className="space-y-6"
-              enctype="multipart/form-data" 
-              id="form" 
+  onSubmit={handleSubmit}
+  action="https://usebasin.com/f/14760ae46558"
+  method="POST"
+  className="space-y-6"
+  encType="multipart/form-data"
+  id="form"
             >
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
