@@ -103,7 +103,7 @@ const Hero: React.FC = () => {
 
             <form 
               onSubmit={handleSubmit}
-              action="https://usebasin.com/f/your-form-id"
+              action="https://usebasin.com/f/14760ae46558"
               method="POST"
               className="space-y-6"
             >
