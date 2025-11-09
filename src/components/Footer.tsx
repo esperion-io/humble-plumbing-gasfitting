@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
                 <Instagram className="h-5 w-5 text-white" />
               </a>
               <a 
-                href="#" // TikTok link placeholder
+                href="https://www.tiktok.com/@humble.plumbing.g" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-black p-3 rounded-full hover:bg-gray-800 transition-all duration-300 transform hover:scale-110"

@@ -5,7 +5,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/humble-plumbing-gasfitting/',
+  base: '/',
   build: {
     sourcemap: 'hidden',
     outDir: 'dist',
